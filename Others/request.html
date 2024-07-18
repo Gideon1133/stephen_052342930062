@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Benny</title>
+   <link rel="stylesheet" href="restaurant.css">
+   <style>
+    p{
+        padding: 0;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    label{
+        align-self:flex-start;
+        font-size: 20px;
+        padding:20px 0 10px 21vw;
+    }
+    input{
+        width: 50%;
+        height: 30px;
+        border-radius: 15px;
+        padding: 12px;
+        font-size: 20px;
+    }
+   </style>
+</head>
+<body> 
+   <div class="container">
+       <div class="over">
+       
+       <div class="box1">
+       <h3 class="glow">Request</h1>
+       <h1 class="glow">Reservation</h1>
+       </div>
+       </div>
+       <hr>
+       <div class="box">
+        <form>
+            <label>Full Name:</label>
+            <input type="text">
+            <label>Email:</label>
+            <input type="email">
+            <label>Phone:</label>
+            <input type="tel">
+            <label>Reservation Date:</label>
+            <input type="date">
+            <input class="butt" onclick="sub()" type="submit">
+            
+
+        </form>
+
+       </div>
+   
+   <script src="restaurant.js"></script>
+</body>
+</html>
